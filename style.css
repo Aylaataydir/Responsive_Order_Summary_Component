@@ -26,7 +26,7 @@ body {
     border-radius: 20px;
     inline-size: 400px;
     overflow: hidden;
-    
+
 }
 
 .illustration img {
@@ -34,7 +34,7 @@ body {
 }
 
 .text-content {
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -48,28 +48,59 @@ body {
 .text-content p {
     color: hsl(224, 23%, 55%);
     margin-bottom: 20px;
+    font-size: 15px;
 }
 
 .plan-section {
     background-color: hsl(225, 100%, 98%);
     display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
     border-radius: 16px;
-    padding: 20px;
-
-
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .plan-section .plan-left {
     display: flex;
-    gap: 10px;
+    text-align: left;
+   
+}
+
+.plan-left img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+
+.plan-left div {
+    color: hsl(223, 47%, 23%); 
+    padding-left: 15px;
+    padding-top: 20px;
     font-size: 8px;
 }
 
-.plan-text {
-    font-size: 5px;
-}
+.plan-left div p{
+    font-size: 12px;
+    padding-top: 3px;
+
 
 }
 
+.plan-right a {
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+}
+
+.button {
+    
+}
+
+.button .pay {
+    text-decoration: none;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    display: block;
+}
