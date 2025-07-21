@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    max-inline-size: 1440px;
+    max-inline-size: 100%;
 }
 
 body {
@@ -50,5 +50,26 @@ body {
     margin-bottom: 20px;
 }
 
+.plan-section {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    padding: 20px;
 
+
+}
+
+.plan-section .plan-left {
+    display: flex;
+    gap: 10px;
+    font-size: 8px;
+}
+
+.plan-text {
+    font-size: 5px;
+}
+
+}
 
